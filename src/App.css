@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.logo {
+  width: 150px;
+  margin: 40px 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.login-btn {
+  background-color: #2d334a;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topbar {
+  background-color: #2d334a;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu.active {
+  background-color: #0099ff;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #fff;
+}
+
+.cards-row {
+  display: flex;
+  gap: 20px;
+}
